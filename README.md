@@ -4,11 +4,10 @@ NeRF and Gaussian Splat environments for Training Quadrotor
 ## Installation
 ### Prerequisites
 Ensure you have the following installed:
+- Ubuntu 20.04
 - Python >= 3.8
 - PyTorch 2.1.2 with CUDA 11.8
 - NVIDIA CUDA Toolkit (for GPU acceleration)
-- AirSim (for drone simulation)
-- NeRF & Gaussian Splatting dependencies
 
 ### Create Environment
 ```bash
@@ -34,17 +33,9 @@ To build necessary CUDA extensions, install cuda-toolkit with conda:
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 ```
 
-#### Alternative: PyTorch 2.0.1 with CUDA 11.7 and tiny-cuda-nn
-##### Linux:
-```bash
-pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
-```
-
-##### Windows:
-Follow similar steps as above with Windows-compatible paths.
 
 ### Installing Nerfstudio
-#### From pip:
+#### From pip: (Recommended)
 ```bash
 pip install nerfstudio
 ```
