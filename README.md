@@ -35,6 +35,8 @@ conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 
 
 ### Installing Nerfstudio
+
+For detailed installation instructions, refer to the official [Nerfstudio Installation Guide](https://docs.nerf.studio/quickstart/installation.html).
 #### From pip: (Recommended)
 ```bash
 pip install nerfstudio
